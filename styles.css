@@ -1,0 +1,119 @@
+/*Poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+html
+{
+	font-family: 'Poppins', sans-serif;
+	color: rgb(101, 156, 227);
+	background-color: rgb(13, 26, 45);
+}
+
+.container
+{
+	width: 325px;
+	height: fit-content;
+	background-color: rgb(21, 39 ,63);
+	border-radius: 10px;
+	margin: 150px auto;
+}
+
+.attribution
+{
+	color: rgb(101, 156, 227);
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a
+{
+	color: rgb(234, 234, 234);
+	text-decoration: none;
+}
+.attribution a:hover
+{
+	color: white;
+}
+
+.main-img
+{
+	padding: 20px;
+	max-width: 284px;
+	border-radius: 30px;
+}
+
+.item-title, .item-subtext
+{
+	margin: 0;
+	font-size: 20px;
+	padding-left: 25px;
+	color: white;
+}
+
+.item-subtext
+{
+	padding-top: 10px;
+	color: rgb(101, 156, 227);
+	font-size: 14px;
+}
+
+.item-data
+{
+	font-size: 12px;
+	padding: 20px 20px 0 20px;
+}
+
+.icon
+{
+	top: 3px;
+	position: relative;
+	max-width: 100%;
+	padding-right: 8px;
+}
+
+.time-data
+{
+	float: right;
+}
+
+.item-price
+{
+	color: rgb(1, 248, 246);
+	font-weight: bold;
+}
+
+.seperator
+{
+	display: block;
+	position: relative;
+	left: 23px;
+	border-bottom: 1px solid rgb(105, 126, 154);
+	width: 75%;
+	padding: 10px 16px;
+}
+
+.creator
+{
+	max-height: 20%;
+	display: inline-flex;
+	justify-content: left;
+	align-items: center;
+	padding: 10px 20px;
+}
+
+.avatar
+{
+	position: relative;
+	height: 25px;
+	border: 1px solid white;
+	border-radius: 50%;
+}
+
+.creator-text
+{
+	padding-left: 15px;
+}
+
+.creator-name
+{
+	color: white;
+}
