@@ -10,6 +10,7 @@ html
 
 .container
 {
+	position: relative;
 	width: 325px;
 	height: fit-content;
 	background-color: rgb(21, 39 ,63);
@@ -41,12 +42,46 @@ html
 	border-radius: 30px;
 }
 
+.overlay 
+{
+	position: absolute;
+	transition: all 0.3s ease-in;
+	opacity: 0;
+	/* background-color: rgb(1, 248, 240); */
+	border-radius: 10px;
+}
+	
+.container:hover .overlay 
+{
+	opacity: .45;
+}
+	
+.overlayFade 
+{
+    height: 284px;
+    width: 282px;
+    transform: translateX(21px) translateY(-311px);
+    background-color: rgb(1, 240, 240);
+}
+
+.view-icon
+{
+	margin-top: 120px;
+	margin-left: 120px;
+}
+
 .item-title, .item-subtext
 {
 	margin: 0;
 	font-size: 20px;
 	padding-left: 25px;
 	color: white;
+}
+
+.item-title:hover
+{
+	color: rgb(1, 248, 246);
+	cursor: pointer;
 }
 
 .item-subtext
@@ -116,4 +151,10 @@ html
 .creator-name
 {
 	color: white;
+}
+
+.creator-name:hover
+{
+	color: rgb(1, 248, 246);
+	cursor: pointer;
 }
