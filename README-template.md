@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solu](https://your-solution-url.com)
+- Live Site URL: [https://nft-preview-card-component-main-n15m6ftvk-lord-nickelbottoms.vercel.app/](https://nft-preview-card-component-main-n15m6ftvk-lord-nickelbottoms.vercel.app/)
 
 ## My process
 
